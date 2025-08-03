@@ -26,7 +26,7 @@ const Services = () => {
         {services.map((service, idx) => (
           <div
             key={idx}
-            className="flex flex-col items-center justify-center p-6 bg-blue-600 text-white rounded-lg shadow hover:bg-blue-700 transition duration-300 cursor-pointer"
+            className="flex flex-col items-center justify-center p-6 bg-[#89c53a] text-white rounded-lg shadow transition duration-300 cursor-pointer"
           >
             {service.icon}
             <p className="mt-4 font-semibold text-center ">{service.name}</p>
